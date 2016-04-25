@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "com.ionic.keyboard"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A ionic plugin of keyboard used on iOS."
   s.description  = <<-DESC
                     Just a cordova plugin used on iOS.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/864764448/com.ionic.keyboard.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/864764448/com.ionic.keyboard.git", :tag => "0.0.3" }
 
   s.source_files  = "com.ionic.keyboard/*.{h,m}"
 
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.dependency 'Cordova-Lib', '~> 3.9.1'
+  s.dependency 'Cordova', '~> 3.9.1'
 
 end
